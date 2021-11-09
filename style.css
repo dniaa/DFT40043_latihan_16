@@ -26,8 +26,8 @@
     padding: 10px;
 }
 
-.isi {
-    border: 1px solid gray;
+.isi{
+    border: 1px solid lightgray;
     padding: 30px;
     border-radius: 10px;
     font-weight: bold;
@@ -35,6 +35,25 @@
     cursor: pointer;
 }
 
+.gambar-pay{
+    background-image: url('pay.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gambar-reload{
+    background-image: url('reload.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.gambar-get{
+    background-image: url('get.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 @media screen and (max-width: 800px) {
     .container {
